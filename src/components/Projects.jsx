@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { ExternalLink, Github, Smartphone, Database, Code2, Rocket, ArrowUpRight } from 'lucide-react';
+import { ExternalLink, Github, Smartphone, Database, Code2, Rocket, ArrowUpRight, Monitor } from 'lucide-react';
 
 const ProjectCard = ({ title, category, description, icon: Icon, links, tags, index }) => (
     <motion.div
@@ -71,7 +71,7 @@ const Projects = () => {
             title: "Feedback System",
             category: "Mobile / Window",
             description: "A customizable feedback engine supporting 10+ types with real-time Firestore ingestion and an automated sentiment filtration system.",
-            icon: Window,
+            icon: Monitor,
             tags: ["Flutter", "Firebase", "Firestore", "Cloud Functions"],
             links: { github: "#", live: "#" }
         },
