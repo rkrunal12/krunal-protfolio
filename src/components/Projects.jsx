@@ -98,6 +98,14 @@ const Projects = () => {
             icon: Smartphone,
             tags: ["Flutter", "REST API"],
             links: { github: "#", live: "#" }
+        },
+        {
+            title: "Foodchow POS offline",
+            category: "Mobile / Window",
+            description: "The POS System using which restaurants can manage their orders and customers offline with high-speed performance. And also in future at single sync it will sync all the data to the database.",
+            icon: Smartphone,
+            tags: ["Flutter", "Drift", "SQLite",],
+            links: { github: "#", live: "#" }
         }
 
     ];

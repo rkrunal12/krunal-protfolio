@@ -80,7 +80,7 @@ const Hero = () => {
                             </div>
                         </motion.div>
 
-                        <motion.div
+                        {/* <motion.div
                             animate={{ y: [0, 20, 0] }}
                             transition={{ duration: 5, repeat: Infinity, ease: "easeInOut", delay: 1 }}
                             className="absolute -bottom-10 -left-10 glass-card p-6 border-purple-500/30"
@@ -94,7 +94,7 @@ const Hero = () => {
                                     <div className="text-sm font-bold">12+ Completed</div>
                                 </div>
                             </div>
-                        </motion.div>
+                        </motion.div> */}
                     </div>
                 </motion.div>
             </div>
