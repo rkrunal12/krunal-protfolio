@@ -36,7 +36,7 @@ const Footer = () => {
                             <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="p-4 bg-white/5 hover:bg-primary-500 rounded-2xl transition-all duration-500 text-gray-400 hover:text-white group border border-white/5 shadow-lg shadow-black/20">
                                 <Linkedin size={24} className="group-hover:scale-110 transition-transform" />
                             </a>
-                            <a href="mailto:contact@krunal.dev" className="p-4 bg-white/5 hover:bg-primary-500 rounded-2xl transition-all duration-500 text-gray-400 hover:text-white group border border-white/5 shadow-lg shadow-black/20">
+                            <a href="https://mail.google.com/mail/?view=cm&fs=1&to=krunalrathod278@gmail.com" target="_blank" rel="noopener noreferrer" className="p-4 bg-white/5 hover:bg-primary-500 rounded-2xl transition-all duration-500 text-gray-400 hover:text-white group border border-white/5 shadow-lg shadow-black/20">
                                 <Mail size={24} className="group-hover:scale-110 transition-transform" />
                             </a>
                         </div>
@@ -68,7 +68,7 @@ const Footer = () => {
                                 <span className="text-white font-black text-lg tracking-tight">Gujarat, India</span>
                             </li>
                             <li>
-                                <a href="#contact" className="mt-4 flex items-center justify-center p-4 bg-primary-600/10 border border-primary-500/20 rounded-2xl text-primary-400 font-black text-xs uppercase tracking-widest hover:bg-primary-500 hover:text-white transition-all duration-500 group">
+                                <a href="https://mail.google.com/mail/?view=cm&fs=1&to=krunalrathod278@gmail.com" target="_blank" rel="noopener noreferrer" className="mt-4 flex items-center justify-center p-4 bg-primary-600/10 border border-primary-500/20 rounded-2xl text-primary-400 font-black text-xs uppercase tracking-widest hover:bg-primary-500 hover:text-white transition-all duration-500 group">
                                     Let's Talk <ArrowUpRight size={16} className="ml-2 group-hover:translate-x-1 group-hover:-translate-y-1 transition-transform" />
                                 </a>
                             </li>

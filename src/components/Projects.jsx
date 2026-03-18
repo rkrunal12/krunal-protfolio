@@ -44,7 +44,7 @@ const ProjectCard = ({ title, category, description, icon: Icon, links, tags, in
                 ))}
             </div>
 
-            <div className="pt-6 border-t border-white/5 flex items-center justify-between">
+            {/* <div className="pt-6 border-t border-white/5 flex items-center justify-between">
                 <div className="flex gap-4">
                     {links.github && (
                         <a href={links.github} className="text-gray-400 hover:text-white transition-colors">
@@ -60,7 +60,7 @@ const ProjectCard = ({ title, category, description, icon: Icon, links, tags, in
                 <a href="#" className="flex items-center gap-1.5 text-xs font-black text-white hover:text-primary-400 transition-colors uppercase tracking-widest group/link">
                     Case Study <ArrowUpRight size={14} className="group-hover/link:-translate-y-0.5 group-hover/link:translate-x-0.5 transition-transform" />
                 </a>
-            </div>
+            </div> */}
         </div>
     </motion.div>
 );
@@ -69,42 +69,42 @@ const Projects = () => {
     const projects = [
         {
             title: "Feedback System",
-            category: "Mobile / Window",
-            description: "A customizable feedback engine supporting 10+ types with real-time Firestore ingestion and an automated sentiment filtration system.",
+            category: "Cross-Platform",
+            description: "A sophisticated feedback engine engineered for scalability, supporting 10+ customizable input types and featuring an automated sentiment analysis pipeline for real-time customer insights.",
             icon: Monitor,
-            tags: ["Flutter", "Firebase", "Firestore", "Cloud Functions"],
+            tags: ["Flutter", "REST API"],
             links: { github: "#", live: "#" }
         },
         {
             title: "Expense Tracker",
             category: "Mobile",
-            description: "High-speed financial tracking app featuring 100% offline functionality via Drift (SQLite) and secure cloud-syncing with Firebase.",
+            description: "A robust financial management suite delivering 100% offline reliability through Drift/SQLite, complemented by background synchronization to Firebase for seamless cross-device data persistence.",
             icon: Database,
             tags: ["Flutter", "Drift", "SQLite", "Firebase Auth"],
             links: { github: "#", live: "#" }
         },
         {
-            title: "Verv E-commerce",
+            title: "E-commerce Fashion App",
             category: "Mobile",
-            description: "A high-performance Android application built with Java, featuring a modular architecture and seamless checkout experiences.",
+            description: "A scalable Android marketplace built on modular architecture principles, optimizing performance and user conversion through streamlined checkout flows and real-time inventory synchronization.",
             icon: Smartphone,
             tags: ["Android", "Java", "REST API", "Firebase"],
             links: { github: "#", live: "#" }
         },
         {
-            title: "Refer and earn",
-            category: "Mobile / Window",
-            description: "The System using which restaurants launch their referral program and using which their customers can earn rewards. And also they get new customers.",
+            title: "Refer & Earn",
+            category: "Cross-Platform",
+            description: "An automated referral growth engine enabling businesses to launch reward-based marketing campaigns, driving user acquisition and customer loyalty through a seamless digital ecosystem.",
             icon: Smartphone,
             tags: ["Flutter", "REST API"],
             links: { github: "#", live: "#" }
         },
         {
-            title: "Foodchow POS offline",
-            category: "Mobile / Window",
-            description: "The POS System using which restaurants can manage their orders and customers offline with high-speed performance. And also in future at single sync it will sync all the data to the database.",
+            title: "Foodchow POS Offline",
+            category: "Cross-Platform",
+            description: "A mission-critical Point of Sale (POS) solution optimized for high-volume restaurant operations, featuring high-speed offline order management and robust data reconciliation protocols.",
             icon: Smartphone,
-            tags: ["Flutter", "Drift", "SQLite",],
+            tags: ["Flutter", "Drift", "SQLite", "State Management"],
             links: { github: "#", live: "#" }
         }
 

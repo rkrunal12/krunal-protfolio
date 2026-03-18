@@ -60,7 +60,7 @@ const Navbar = () => {
                         <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="p-2 text-gray-400 hover:text-white hover:bg-white/5 rounded-lg transition-all">
                             <Linkedin size={20} />
                         </a>
-                        <a href="#contact" className="ml-2 px-5 py-2.5 bg-white/5 hover:bg-white/10 border border-white/10 rounded-xl text-xs font-bold tracking-widest uppercase transition-all">
+                        <a href="https://mail.google.com/mail/?view=cm&fs=1&to=krunalrathod278@gmail.com" target="_blank" rel="noopener noreferrer" className="ml-2 px-5 py-2.5 bg-white/5 hover:bg-white/10 border border-white/10 rounded-xl text-xs font-bold tracking-widest uppercase transition-all">
                             Let's Talk
                         </a>
                     </div>
@@ -93,7 +93,7 @@ const Navbar = () => {
                             <div className="flex gap-4">
                                 <a href="https://github.com" className="p-2 bg-white/5 rounded-lg text-gray-400"><Github size={20} /></a>
                                 <a href="https://linkedin.com" className="p-2 bg-white/5 rounded-lg text-gray-400"><Linkedin size={20} /></a>
-                                <a href="mailto:hello@example.com" className="p-2 bg-white/5 rounded-lg text-gray-400"><Mail size={20} /></a>
+                                <a href="https://mail.google.com/mail/?view=cm&fs=1&to=krunalrathod278@gmail.com" target="_blank" rel="noopener noreferrer" className="p-2 bg-white/5 rounded-lg text-gray-400"><Mail size={20} /></a>
                             </div>
                             <Sparkles className="text-primary-500 animate-pulse" />
                         </div>
